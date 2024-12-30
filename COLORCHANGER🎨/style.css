@@ -1,0 +1,24 @@
+#grey {
+     background-color:"grey";
+     
+}
+#red{
+    background-color: red;
+
+}
+#blue{
+    background-color: blue;
+    
+}
+#yellow{
+    background-color: yellow;
+}
+input{
+    padding: 100px;
+    margin : 50px;
+    height: 100px;
+    width : 100px;
+    border-radius: 10px;
+    border-width: 3px;
+    
+}

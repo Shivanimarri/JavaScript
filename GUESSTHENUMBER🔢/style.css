@@ -1,0 +1,25 @@
+nav{
+    background-color: #181818;
+    color:aliceblue;
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 5px;
+}
+input{
+    height:50px;
+    width: 200px;
+    border-radius: 8px;
+    border-color: #121111;
+    border-width: 2px;
+    margin: 20px
+}
+#subt{
+    background-color: #232222;
+    color:aliceblue;
+    font-size: larger;
+
+}
+p{
+    font-size: xx-large;
+}

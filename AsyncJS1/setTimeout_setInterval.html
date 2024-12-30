@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My JS</h1>
+    <button id="btn"> Button</button>
+    <button id="start"> Start</button>
+    <button id="stop"> Stop</button>
+   
+</body>
+<script>
+    // An Example for setTimeout and clearTimeOut
+    const changeText= function(){
+        document.querySelector('h1').innerHTML= "My Learning";
+    }
+    const changeMe= setTimeout(changeText ,3000)
+    document.querySelector('#btn').addEventListener('click',function(){
+        clearTimeout(changeMe)
+        console.log("Since I clicked the button within 3 secs, The name has not chamged to 'My Learning'")
+    })
+    // An Example for setInterval and clearInterval
+    const myFunc = function(str){
+        console.log(str, Date.now())
+    }
+    let startOpr;
+    document.querySelector('#start').addEventListener('click',function(){
+        startOpr= setInterval(myFunc, 2000, "Shivani")
+        console.log("Set Interval Start Operation.")
+    })
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(startOpr)
+        console.log("Operation Stopped.")
+    })
+
+    
+
+</script>
+</html>

@@ -1,0 +1,11 @@
+span{
+    font-size: x-large;
+    text-align: center;
+}
+body{
+    background-color: #212121;
+    color: aliceblue;
+}
+#clock{
+    background-color: #edd222;
+}
